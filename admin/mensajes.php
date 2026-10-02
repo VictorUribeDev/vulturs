@@ -137,7 +137,7 @@ $unread_count = count(array_filter($messages, fn($m) => !$m['is_read']));
                                                 </form>
                                             <?php endif; ?>
                                             
-                                            <a href="mailto:<?= htmlspecialchars($message['email']) ?>?subject=Re: Contacto desde Vultur Restaurant" 
+                                            <a href="mailto:<?= htmlspecialchars($message['email']) ?>?subject=Re: Contacto desde Sandwich Shop" 
                                                class="btn btn-sm btn-outline-primary" title="Responder">
                                                 <i class="fas fa-reply"></i>
                                             </a>

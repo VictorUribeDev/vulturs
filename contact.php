@@ -34,7 +34,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?= $page_title ?> - Vultur Restaurant</title>
+    <title><?= $page_title ?> - Sandwich Shop</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
@@ -49,7 +49,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container">
             <a class="navbar-brand" href="index.php">
-                <i class="fas fa-utensils"></i> Vultur Restaurant
+                <i class="fas fa-utensils"></i> Sandwich Shop
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
@@ -107,7 +107,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                                 </div>
                                 <div class="contact-details">
                                     <strong>Dirección</strong>
-                                    <p class="mb-0">Calle Principal #123<br>Centro, Ciudad</p>
+                                    <p class="mb-0">123 Main Street<br>Downtown, City</p>
                                 </div>
                             </div>
                             
@@ -118,7 +118,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                                 <div class="contact-details">
                                     <strong>Teléfono</strong>
                                     <p class="mb-0">
-                                        <a href="tel:+123456789">(123) 456-7890</a>
+                                        <a href="tel:+15551234567">(555) 123-4567</a>
                                     </p>
                                 </div>
                             </div>
@@ -130,7 +130,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                                 <div class="contact-details">
                                     <strong>Email</strong>
                                     <p class="mb-0">
-                                        <a href="mailto:info@vulturrestaurant.com">info@vulturrestaurant.com</a>
+                                        <a href="mailto:contact@sandwichshop.example">contact@sandwichshop.example</a>
                                     </p>
                                 </div>
                             </div>
@@ -217,7 +217,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <!-- Google Maps iframe embed -->
                 <div class="ratio ratio-16x9">
                     <iframe 
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1dXXXXXXXXXXXXXX!2d-XX.XXXXXX!3d-XX.XXXXXX!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xXXXXXXXXXXXXXX%3A0xXXXXXXXXXXXXXX!2sVultur%20Restaurant!5e0!3m2!1ses!2scl!4vXXXXXXXXXXXXXX" 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.0!2d-74.0!3d40.7!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sSandwich%20Shop!5e0!3m2!1sen!2sus!4v1234567890" 
                         width="600" 
                         height="450" 
                         style="border:0;" 

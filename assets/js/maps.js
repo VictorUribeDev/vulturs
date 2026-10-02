@@ -1,12 +1,12 @@
 /**
- * Google Maps integration for Vultur Restaurant
+ * Google Maps integration for Sandwich Shop
  * Handles map initialization and location display
  */
 
 // Restaurant location (default coordinates - replace with actual location)
 const RESTAURANT_LOCATION = {
-    lat: -34.397,
-    lng: -58.644
+    lat: 40.7128,
+    lng: -74.0060
 };
 
 // Map configuration
@@ -209,7 +209,7 @@ function initMap() {
         marker = new google.maps.Marker({
             position: RESTAURANT_LOCATION,
             map: map,
-            title: 'Vultur Restaurant',
+            title: 'Sandwich Shop',
             animation: google.maps.Animation.DROP,
             icon: {
                 url: createCustomMarkerIcon(),
@@ -271,19 +271,19 @@ function createInfoWindowContent() {
             <div style="text-align: center; margin-bottom: 10px;">
                 <h5 style="color: #1e7dd8; margin: 0; font-weight: 600;">
                     <i class="fas fa-utensils" style="margin-right: 5px;"></i>
-                    Vultur Restaurant
+                    Sandwich Shop
                 </h5>
             </div>
             
             <div style="margin-bottom: 8px;">
                 <i class="fas fa-map-marker-alt" style="color: #1e7dd8; width: 16px;"></i>
-                <span style="margin-left: 8px;">Calle Principal #123, Centro, Ciudad</span>
+                <span style="margin-left: 8px;">123 Main Street, Downtown, City</span>
             </div>
             
             <div style="margin-bottom: 8px;">
                 <i class="fas fa-phone" style="color: #1e7dd8; width: 16px;"></i>
                 <span style="margin-left: 8px;">
-                    <a href="tel:+123456789" style="color: #1e7dd8; text-decoration: none;">(123) 456-7890</a>
+                    <a href="tel:+15551234567" style="color: #1e7dd8; text-decoration: none;">(555) 123-4567</a>
                 </span>
             </div>
             
@@ -465,16 +465,16 @@ function showMapError() {
                     <i class="fas fa-map-marked-alt fa-3x text-primary mb-3"></i>
                     <h5 class="text-dark">Nuestra Ubicación</h5>
                     <p class="text-muted mb-3">
-                        <strong>Calle Principal #123</strong><br>
-                        Centro, Ciudad<br>
-                        <i class="fas fa-phone"></i> (123) 456-7890
+                        <strong>123 Main Street</strong><br>
+                        Downtown, City<br>
+                        <i class="fas fa-phone"></i> (555) 123-4567
                     </p>
                     <div class="d-flex gap-2 justify-content-center flex-wrap">
-                        <a href="https://www.google.com/maps/search/Calle+Principal+123+Centro+Ciudad" 
+                        <a href="https://www.google.com/maps/search/123+Main+Street+Downtown+City" 
                            target="_blank" class="btn btn-primary btn-sm">
                             <i class="fas fa-external-link-alt"></i> Ver en Google Maps
                         </a>
-                        <a href="tel:+123456789" class="btn btn-success btn-sm">
+                        <a href="tel:+15551234567" class="btn btn-success btn-sm">
                             <i class="fas fa-phone"></i> Llamar
                         </a>
                     </div>

@@ -9,7 +9,7 @@ $page_title = "Inicio";
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?= $page_title ?> - Vultur Restaurant</title>
+    <title><?= $page_title ?> - Sandwich Shop</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
@@ -19,7 +19,7 @@ $page_title = "Inicio";
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container">
             <a class="navbar-brand" href="index.php">
-                <img src="assets/images/logo.png" alt="Vultur Restaurant" class="logo-nav">
+                <img src="assets/images/logo.png" alt="Sandwich Shop" class="logo-nav">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
@@ -58,7 +58,7 @@ $page_title = "Inicio";
                 <div class="col-lg-6">
                     <div class="hero-content">
                         <h1 class="hero-title">
-                            <img src="assets/images/logo.png" alt="Vultur Restaurant" class="logo-img">
+                            <img src="assets/images/logo.png" alt="Sandwich Shop" class="logo-img">
                         </h1>
 
                         <p class="hero-subtitle">
@@ -87,7 +87,7 @@ $page_title = "Inicio";
                             <rect x="170" y="120" width="80" height="100" fill="#3498db" rx="5"/>
                             <rect x="270" y="120" width="80" height="100" fill="#3498db" rx="5"/>
                             <rect x="370" y="120" width="60" height="100" fill="#e74c3c" rx="5"/>
-                            <text x="250" y="180" text-anchor="middle" fill="#ffffff" font-size="20" font-weight="bold">VULTUR</text>
+                            <text x="250" y="180" text-anchor="middle" fill="#ffffff" font-size="20" font-weight="bold">SANDWICH SHOP</text>
                             <text x="250" y="200" text-anchor="middle" fill="#ffffff" font-size="14">Restaurant</text>
                             <!-- Burger icon -->
                             <circle cx="380" cy="60" r="30" fill="#f39c12"/>

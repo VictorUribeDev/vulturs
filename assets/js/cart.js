@@ -1,5 +1,5 @@
 /**
- * Cart functionality for Vultur Restaurant
+ * Cart functionality for Sandwich Shop
  * Handles cart operations, updates, and checkout process
  */
 
