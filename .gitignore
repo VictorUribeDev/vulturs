@@ -1,0 +1,36 @@
+# Dependencies
+vendor/
+node_modules/
+
+# Environment & Config
+includes/db.php
+*.env
+.env.local
+
+# Database
+*.sql
+*.sqlite
+*.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+error_log
+
+# Uploads (if any)
+uploads/
+images/uploads/
+
+# Cache
+cache/
+tmp/
+temp/
